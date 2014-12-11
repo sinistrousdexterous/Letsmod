@@ -1,0 +1,20 @@
+[
+    {
+        "modid": "Letsmod",
+        "name": "Letsmod mod",
+        "description": "Practice mod",
+        "version": "0.1",
+        "credits": "Created by SpaceToad",
+        "logoFile": "",
+        "mcversion": "",
+        "url": "http://www.mod-buildcraft.com/",
+        "updateUrl": "",
+        "authors": [ "SinistrousDexterous" ],
+        "parent":"",
+        "screenshots": [],
+        "dependencies":
+        [
+        "mod_MinecraftForge"
+        ]
+    }
+]
