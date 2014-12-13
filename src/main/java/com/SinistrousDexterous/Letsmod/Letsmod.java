@@ -1,5 +1,6 @@
 package com.SinistrousDexterous.Letsmod;
 
+import com.SinistrousDexterous.Letsmod.configuration.ConfigurationHandler;
 import com.SinistrousDexterous.Letsmod.proxy.IProxy;
 import com.SinistrousDexterous.Letsmod.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -20,7 +21,7 @@ public class Letsmod
    @Mod.EventHandler
    public void Init(FMLPreInitializationEvent event)
    {
-
+      ConfigurationHandler.init(event.getSuggestedConfigurationFile());
    }
    @Mod.EventHandler
    public void Init(FMLInitializationEvent event)
