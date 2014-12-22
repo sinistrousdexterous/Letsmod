@@ -8,4 +8,5 @@ public class Reference
 
    public static final String CLIENTPROXY = "com.SinistrousDexterous.Letsmod.proxy.ClientProxy";
    public static final String SERVERPROXY = "com.SinistrousDexterous.Letsmod.proxy.ServerProxy";
+   public static final String GUI_FACTORY_CLASS = "com.SinistrousDexterous.Letsmod.client.gui.GuiFactory";
 }

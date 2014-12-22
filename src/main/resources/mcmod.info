@@ -9,12 +9,10 @@
         "mcversion": "",
         "url": "http://www.mod-buildcraft.com/",
         "updateUrl": "",
-        "authors": [ "SinistrousDexterous" ],
+        "authors": ["SinistrousDexterous"] ,
         "parent":"",
         "screenshots": [],
         "dependencies":
-        [
-        "mod_MinecraftForge"
-        ]
+        ["mod_MinecraftForge"]
     }
 ]
