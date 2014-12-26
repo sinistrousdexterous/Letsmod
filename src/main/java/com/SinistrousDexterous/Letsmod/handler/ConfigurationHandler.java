@@ -17,6 +17,7 @@ public class ConfigurationHandler
       if (configuration == null)
       {
          configuration = new Configuration(configFile);
+         loadConfiguration();
       }
    }
    @SubscribeEvent
@@ -28,7 +29,7 @@ public class ConfigurationHandler
          //resync config
       }
    }
-   public void loadConfiguration()
+   private static void loadConfiguration()
    {
       testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "example Test value");
       if(configuration.hasChanged())

@@ -1,9 +1,11 @@
 package com.SinistrousDexterous.Letsmod;
 
 import com.SinistrousDexterous.Letsmod.handler.ConfigurationHandler;
+import com.SinistrousDexterous.Letsmod.init.ModItems;
 import com.SinistrousDexterous.Letsmod.proxy.IProxy;
 import com.SinistrousDexterous.Letsmod.reference.Reference;
 import com.SinistrousDexterous.Letsmod.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -23,7 +25,10 @@ public class Letsmod
    public void Init(FMLPreInitializationEvent event)
    {
       ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-      LogHelper.info("Pre-Initialisation Complete");
+      FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+      LogHelper.info("Pre-Initialisation Complete");//info message in terminal
+
+      ModItems.init();
    }
    @Mod.EventHandler
    public void Init(FMLInitializationEvent event)
