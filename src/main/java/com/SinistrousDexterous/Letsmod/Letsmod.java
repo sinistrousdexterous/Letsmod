@@ -1,6 +1,7 @@
 package com.SinistrousDexterous.Letsmod;
 
 import com.SinistrousDexterous.Letsmod.handler.ConfigurationHandler;
+import com.SinistrousDexterous.Letsmod.init.ModBlocks;
 import com.SinistrousDexterous.Letsmod.init.ModItems;
 import com.SinistrousDexterous.Letsmod.proxy.IProxy;
 import com.SinistrousDexterous.Letsmod.reference.Reference;
@@ -29,6 +30,7 @@ public class Letsmod
       LogHelper.info("Pre-Initialisation Complete");//info message in terminal
 
       ModItems.init();
+      ModBlocks.init();
    }
    @Mod.EventHandler
    public void Init(FMLInitializationEvent event)
