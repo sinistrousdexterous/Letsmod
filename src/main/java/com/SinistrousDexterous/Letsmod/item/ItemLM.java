@@ -1,5 +1,6 @@
 package com.SinistrousDexterous.Letsmod.item;
 
+import com.SinistrousDexterous.Letsmod.creativetab.CreativeTabLM;
 import com.SinistrousDexterous.Letsmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemLM extends Item
    public ItemLM()
    {
       super();
+      this.setCreativeTab(CreativeTabLM.tabLM);
    }
 
    @Override

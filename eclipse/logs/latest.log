@@ -1,8 +1,8 @@
-[16:57:37] [main/INFO]: Setting user: Player375
-[16:57:38] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:57:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Letsmod mod
-[16:57:43] [Sound Library Loader/INFO]: Sound engine started
-[16:57:45] [Client thread/ERROR]: Using missing texture, unable to load letsmod:textures/blocks/saltBlock.png
+[23:57:23] [main/INFO]: Setting user: Player203
+[23:57:25] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:57:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Letsmod mod
+[23:57:31] [Sound Library Loader/INFO]: Sound engine started
+[23:57:33] [Client thread/ERROR]: Using missing texture, unable to load letsmod:textures/blocks/saltBlock.png
 java.io.FileNotFoundException: letsmod:textures/blocks/saltBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,11 +27,11 @@ java.io.FileNotFoundException: letsmod:textures/blocks/saltBlock.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:57:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:57:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:57:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Letsmod mod
-[16:57:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:57:45] [Client thread/ERROR]: Using missing texture, unable to load letsmod:textures/blocks/saltBlock.png
+[23:57:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:57:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:57:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Letsmod mod
+[23:57:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:57:34] [Client thread/ERROR]: Using missing texture, unable to load letsmod:textures/blocks/saltBlock.png
 java.io.FileNotFoundException: letsmod:textures/blocks/saltBlock.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -59,22 +59,40 @@ java.io.FileNotFoundException: letsmod:textures/blocks/saltBlock.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:57:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:57:46] [Sound Library Loader/INFO]: Sound engine started
-[16:57:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:57:49] [Server thread/INFO]: Generating keypair
-[16:57:50] [Server thread/INFO]: Preparing start region for level 0
-[16:57:50] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:57:50] [Server thread/INFO]: Player375[local:E:c450c056] logged in with entity id 63 at (-389.7858648647304, 6.0155550727022, 1701.4791011629934)
-[16:57:50] [Server thread/INFO]: Player375 joined the game
-[16:57:57] [Server thread/INFO]: Saving and pausing game...
-[16:57:57] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
-[16:57:57] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
-[16:57:57] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
-[16:57:58] [Server thread/INFO]: Stopping server
-[16:57:58] [Server thread/INFO]: Saving players
-[16:57:58] [Server thread/INFO]: Saving worlds
-[16:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
-[16:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
-[16:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
-[16:57:58] [Client thread/INFO]: Stopping!
+[23:57:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:57:35] [Sound Library Loader/INFO]: Sound engine started
+[23:57:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:57:39] [Server thread/INFO]: Generating keypair
+[23:57:40] [Server thread/INFO]: Preparing start region for level 0
+[23:57:40] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:57:41] [Server thread/INFO]: Player203[local:E:5ce3a567] logged in with entity id 63 at (-389.30000001192093, 5.0, 1705.1020706361608)
+[23:57:41] [Server thread/INFO]: Player203 joined the game
+[23:57:43] [Server thread/INFO]: Player203 has just earned the achievement [Taking Inventory]
+[23:57:44] [Client thread/INFO]: [CHAT] Player203 has just earned the achievement [Taking Inventory]
+[23:57:47] [Server thread/INFO]: Saving and pausing game...
+[23:57:47] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
+[23:57:47] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
+[23:57:47] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
+[23:57:48] [Server thread/INFO]: Stopping server
+[23:57:48] [Server thread/INFO]: Saving players
+[23:57:48] [Server thread/INFO]: Saving worlds
+[23:57:48] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
+[23:57:48] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
+[23:57:48] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
+[23:57:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:57:50] [Server thread/INFO]: Generating keypair
+[23:57:50] [Server thread/INFO]: Preparing start region for level 0
+[23:57:51] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:57:51] [Server thread/INFO]: Player203[local:E:ffd006ff] logged in with entity id 20817 at (-389.30000001192093, 5.0, 1705.1020706361608)
+[23:57:51] [Server thread/INFO]: Player203 joined the game
+[23:57:58] [Server thread/INFO]: Saving and pausing game...
+[23:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
+[23:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
+[23:57:58] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
+[23:57:59] [Server thread/INFO]: Stopping server
+[23:57:59] [Server thread/INFO]: Saving players
+[23:57:59] [Server thread/INFO]: Saving worlds
+[23:57:59] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Overworld
+[23:57:59] [Server thread/INFO]: Saving chunks for level 'Mod Test'/Nether
+[23:57:59] [Server thread/INFO]: Saving chunks for level 'Mod Test'/The End
+[23:58:00] [Client thread/INFO]: Stopping!

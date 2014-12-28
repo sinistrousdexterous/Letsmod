@@ -1,5 +1,6 @@
 package com.SinistrousDexterous.Letsmod.block;
 
+import com.SinistrousDexterous.Letsmod.creativetab.CreativeTabLM;
 import com.SinistrousDexterous.Letsmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class BlockLM extends Block
    public BlockLM(Material material)
    {
       super(material);
+      this.setCreativeTab(CreativeTabLM.tabLM);
    }
    public BlockLM()
    {
