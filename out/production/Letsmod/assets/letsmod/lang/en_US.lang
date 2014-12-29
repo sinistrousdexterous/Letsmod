@@ -1,2 +1,3 @@
 item.letsmod:salt.name=Salt
-tile.letsmod:saltBlock.name=Block ofSalt
+tile.letsmod:saltBlock.name=Block of Salt
+itemGroup.letsmod=Letsmod mod

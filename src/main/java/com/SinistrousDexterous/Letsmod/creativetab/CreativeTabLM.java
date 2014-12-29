@@ -7,18 +7,12 @@ import net.minecraft.item.Item;
 
 public class CreativeTabLM
 {
-   public static final CreativeTabs tabLM = new CreativeTabs(Reference.MOD_ID)
+   public static final CreativeTabs tabLM = new CreativeTabs(Reference.MOD_ID.toLowerCase())
    {
       @Override
       public Item getTabIconItem()
       {
          return ModItems.salt;
-      }
-
-      @Override
-      public String getTranslatedTabLabel()
-      {
-         return "Letsmod mod";
       }
    };
 }

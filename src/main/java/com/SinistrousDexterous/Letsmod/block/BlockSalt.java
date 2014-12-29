@@ -8,5 +8,6 @@ public class BlockSalt extends BlockLM
    {
       super();
       this.setBlockName("saltBlock");
+      this.setResistance(25.0F);//4 (2 blocks all sides) 25(1 block all sides)
    }
 }

@@ -16,4 +16,5 @@ public class ModBlocks
       GameRegistry.registerBlock(saltBlock, "saltBlock");
    }
 
+
 }
