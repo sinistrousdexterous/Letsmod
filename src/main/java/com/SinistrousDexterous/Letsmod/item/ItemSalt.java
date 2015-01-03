@@ -9,5 +9,4 @@ public class ItemSalt extends ItemLM
       super();
       this.setUnlocalizedName("salt");
    }
-
 }

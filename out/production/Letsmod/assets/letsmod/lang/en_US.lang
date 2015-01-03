@@ -1,3 +1,4 @@
-item.letsmod:salt.name=Salt
-tile.letsmod:saltBlock.name=Block of Salt
 itemGroup.letsmod=Letsmod mod
+tile.letsmod:saltBlock.name=Block of Salt
+item.letsmod:salt.name=Salt
+item.letsmod:branchcutter.name=Branch Cutter
