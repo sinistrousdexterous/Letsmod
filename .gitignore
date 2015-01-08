@@ -7,7 +7,6 @@
 .project
 /.settings
 /bin
-.eclipse/**
 
 # IntelliJ
 /.idea
