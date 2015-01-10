@@ -31,10 +31,10 @@ public class ItemBranchCutter extends ItemLMTool
       this.setUnlocalizedName("branchcutter");
       this.setMaxStackSize(1);
       this.setMaxDamage(64);
-      this.setCreativeTab(CreativeTabLM.tabLM);
    }
 
-   public boolean canHarvestBlock(Block block)
+   @Override// can Harvest
+   public boolean func_150897_b(Block block)
    {
       if (block.isLeaves(CommonProxy.getProxy().getWorld(), 0, 0, 0))
       {
@@ -44,8 +44,8 @@ public class ItemBranchCutter extends ItemLMTool
       return false;
    }
 
-   @Override
-   public float getDigSpeed(ItemStack item, Block block)
+   @Override //getDigSpeed
+   public float func_150893_a(ItemStack item, Block block)
    {
       if (block.isLeaves(CommonProxy.getProxy().getWorld(), 0, 0, 0))
       {
@@ -71,16 +71,7 @@ public class ItemBranchCutter extends ItemLMTool
          {
             //If the Forestry method didn't work, try the vanilla way.
             //Call it once here and it gets called again when it breaks.
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
-            block.dropBlockAsItem(world, X, Y, Z, meta, 0);
+            block.dropBlockAsItem(world, X, Y, Z, meta, 0);//drop saplings
 
             //Stick drop chance 100%
             if (world.rand.nextInt(1) == 0)

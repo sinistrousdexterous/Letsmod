@@ -36,7 +36,7 @@ public class BlockLM extends Block
 
    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
    {
-      return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+      return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1); //MODID:texturename.png
    }
 
 }

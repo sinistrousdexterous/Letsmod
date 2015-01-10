@@ -10,6 +10,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.item.*;
+import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeHooks;
 
@@ -158,4 +159,18 @@ public class ItemLMTool extends ItemLM
          return super.getDigSpeed(stack, block, meta);
       }
     /*===================================== FORGE END =================================*/
+
+   public Block getBlock(MovingObjectPosition target, World world)
+   {
+      if (target.typeOfHit == MovingObjectPosition.MovingObjectType.BLOCK)
+      {
+         int x = target.blockX;
+         int y = target.blockY;
+         int z = target.blockZ;
+         Block block = world.getBlock(x, y, z);
+
+         return block;
+      }
+      return null;
+   }
 }

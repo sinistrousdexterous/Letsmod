@@ -33,6 +33,7 @@ public class ItemLM extends Item
    {
       return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
    }
+
    @Override
    @SideOnly(Side.CLIENT)
    public void registerIcons(IIconRegister iconRegister)

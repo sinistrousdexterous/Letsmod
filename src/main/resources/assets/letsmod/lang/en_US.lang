@@ -1,4 +1,6 @@
 itemGroup.letsmod=Letsmod mod
 tile.letsmod:saltBlock.name=Block of Salt
+tile.letsmod:emberBlock.name=Embers
 item.letsmod:salt.name=Salt
 item.letsmod:branchcutter.name=Branch Cutter
+item.letsmod:metaWand.name=Meta increasing wand
